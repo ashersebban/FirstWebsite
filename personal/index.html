@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>mySITE - PERSONAL</title>
+		<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+		<!-- Media query for medium browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+		<!-- Media query for full browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/custom.css">
+
+		<!-- Prevent smartphones from scaling pages down -->
+		<meta name="viewport" content="initial-scale=1">
+		
+		<link href="https://fonts.googleapis.com/css?family=K2D:400,700" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<h1 id = "Title">mySITE</h1>
+
+			<nav class = "mainNav">
+				<ul>
+					<li>
+					<!-- LINK TO  PORTFOLIO -->
+						<a href = "../portfolio/index.html">HOME</a>
+					</li>
+					<!-- ACTIVE PAGE - PERSONAL -->
+					<li>
+						<a href = "../personal/index.html" class=active>PERSONAL</a>
+					</li>
+					<!-- LINK TO INTEREST -->
+					<li>
+						<a href = "../interest/index.html">INTEREST</a>
+					</li> 
+					<!-- LINK TO CAUSE -->
+					<li>
+						<a href = "../cause/index.html">CAUSE</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<div class="button" id="left">
+				<a href = "gallery.html"></a>
+			</div>
+			<div class="button" id="right">
+				<a href="about.html"></a>
+			</div>
+		</section>
+
+		<article>
+				<div class="Tables">
+					<h2> Sign In Sheet </h2>
+					<table>
+						<thead>
+							<tr>
+								<th>First name:</th>
+								<th>Last name:</th>
+								<th>Email:</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<td>Asher</td>
+								<td>Sebban</td>
+								<td>as10518@nyu.edu</td>
+							</tr>
+							<tr>
+								<td>Joe</td>
+								<td>Shmo</td>
+								<td>Jshmoe@dropout.edu</td>
+							</tr>
+							<tr>
+								<td>
+									<form action="process.php" method="POST"></form>
+									<input type="text" name="firstName" placeholder="First">
+								</td>
+								<td>
+									<form action="process.php" method="POST"></form>
+									<input type="text" name="lastName" placeholder="Last">
+								</td>
+								<td>
+									<form action="process.php" method="POST"></form>
+									<input type="email" name="email" paceholder="Email">
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="list">
+					<h4>Ordered List</h4>
+					<ol>
+						<li>
+							Item One
+						</li>
+						<li>
+							Item Two
+						</li>
+						<li>
+							Item Three
+						</li>
+					</ol>
+				</div>
+				<div class="list">
+					<h4>Unordered List</h4>
+					<ul>
+						<li>
+							People
+						</li>
+						<li>
+							Places
+						</li>
+						<li>
+							Things
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="bodyText"> <strong>Paragraph:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p>
+		</article>
+
+	<footer>
+		<img src="images/images.png" alt="Personal image" />
+		<p class="endNote">
+			Copyright by BLABLA I can do BLABLABLA
+		</p>
+	</footer>
+</body>
+
+
+</html>

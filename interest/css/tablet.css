@@ -1,0 +1,155 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+html{
+background-color: #f4f4f4;;
+}
+
+body{
+font-family: "K2D", sans-serif;
+color: black;
+}
+
+	header{
+		position: fixed;
+		top:0;
+		width:100vw;
+		z-index:300;
+
+		}
+			h1{
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 40px;
+			}
+
+			.mainNav{
+			background-color:#f4f4f4;
+			
+			}
+
+				.mainNav ul{
+				width: 100%;
+				margin:auto;
+				border: 2px #ccc solid;
+				padding: 10px;
+				text-align: center;
+				list-style: square;
+				list-style-type: none;
+				}
+
+				.mainNav li{
+		    	display: inline;
+		    	margin: 10px;
+				}
+				
+				.mainNav a{
+				font-size: 20px;
+				text-decoration: none;
+				color:inherit;
+				text-align: center;
+				}
+					.mainNav a:hover {
+					font-size: 21px;
+				}
+					.mainNav .active{
+					font-weight: 700;
+					border-bottom:3px red solid;
+				}
+					.mainNav a:visited {
+					color:inherit;
+					font-size: 20px;
+				}
+					.mainNav a:active {
+					color: #f4f4f4;
+				}
+
+			#none{
+				margin-top: 175px;
+				clear:both;
+			}
+
+
+			#Intro{
+				width: 100%;
+				margin: auto;
+				box-sizing: border-box;
+				overflow: hidden;
+				display:flex;
+				border-bottom: 10px black solid;
+				height:520px;
+			}
+
+				.bigBox{
+				width:70%;
+				}
+				.smallBox{
+				width:30%;
+			}
+			#Intro .bigBox{
+				overflow: hidden;
+			}
+			#Intro img{
+				white-space: nowrap;
+				height:639px;
+/*				position:relative;
+				right:60px;*/
+				}
+			#Intro p{
+				padding:20px;
+				line-height:1.5em;
+				background-color: forestgreen;
+			}
+			#Intro h2{
+				padding:20px;
+				background-color: black;
+				color:white;
+			}
+	#chessbase{
+		background-image: url("../images/Chessboard-6.jpg");
+		background-position:bottom;
+	}
+		#chessbase iframe{
+		}
+
+article{
+	}
+		.Scrollbar{
+			margin: auto;
+			background-color:black;
+			overflow-y: hidden;
+			white-space: nowrap;
+			display: flex;
+	}
+
+			.Bio{
+				margin:20px;
+				text-align:center;
+			}
+			.Bio .Image{
+				width:150px;
+				height:150px;
+				border-radius: 100px;
+				overflow:hidden;
+				margin:10px 20px;
+				border:1px white double;
+				overflow: hidden;
+				display:inline-block;
+				color:white;
+			}
+				.Image img{
+				width:100%;
+			}
+
+			.Bio h4{
+				color:forestgreen;
+			}
+			
+			.Bio h3{
+				color:white;
+							}
+		

@@ -1,0 +1,136 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+html{
+background-color: #f4f4f4;;
+}
+
+body{
+font-family: "K2D", sans-serif;
+color: black;
+}
+
+	header{
+		text-align:  center;
+
+		}
+			h1{
+			background-color: black;
+			color: white;
+			padding: 40px;
+			}
+
+			.mainNav{
+			width:100vw;
+			border: 2px #ccc solid;
+			}
+
+				.mainNav ul{
+				width:100%;
+				display: inline-flex;				
+				list-style-type: none;
+				background-color: #f4f4f4;
+				}
+
+				.mainNav li{
+				width:25%;
+				padding:10px 5px;
+				margin:auto;
+				}
+				
+				.mainNav a{
+				width:100%;
+				margin:auto;
+				text-decoration: none;
+				text-align: center;
+				color: black;
+				font-size: 1em;
+				}
+					.mainNav .active{
+					border-bottom:2px red solid;
+				}
+					.mainNav a:visited {
+					color:inherit;
+				}
+					.mainNav a:active {
+					color: #f4f4f4;
+				}
+
+
+			#Intro{
+				width: 100%;
+				margin: auto;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			#Intro .bigBox{
+				overflow: hidden;
+			}
+			#Intro img{
+				width:100%;
+				white-space: nowrap;
+				}
+			#Intro p{
+				padding:20px;
+				line-height:2em;
+				background-color: forestgreen;
+				font-size:0.89em;
+				font-style: bold;		
+			}
+			#Intro h2{
+				padding:20px;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+
+	#chessbase{
+		width:100%;
+		overflow:scroll;
+		
+	}
+		#chessbase iframe{
+			margin-left:2px;
+		}
+
+	article{
+	}
+		.Scrollbar{
+			margin: auto;
+			background-color:#f4f4f4;
+			background-color: black;
+			overflow-y: hidden;
+			white-space: nowrap;
+			display: flex;
+	}
+
+			.Bio{
+				margin:20px;
+				text-align:center;
+			}
+			.Bio .Image{
+				width:150px;
+				height:150px;
+				border-radius: 100px;
+				overflow:hidden;
+				margin:10px 20px;
+				border:1px white double;
+				overflow: hidden;
+				display:inline-block;
+				color:white;
+			}
+				.Image img{
+				width:100%;
+			}
+
+			.Bio h4{
+				color:forestgreen;
+			}
+			
+			.Bio h3{
+				color:white;
+							}
+		

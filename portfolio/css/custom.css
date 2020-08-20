@@ -1,0 +1,175 @@
+*{
+margin:0;
+padding:0;
+}
+
+html{
+background-color: black;
+}
+
+body{
+background-color: #f4f4f4;
+font-family: "K2D", sans-serif;
+color: black;
+}
+
+	header{
+		position: fixed;
+		top:0;
+
+		height:190px;
+		width:100vw;
+
+		}
+			h1{
+			background-color: black;
+			color: white;
+			text-align:  center;
+			padding: 40px;
+			}
+
+			.mainNav{
+			background-color:#f4f4f4;
+			
+			}
+
+				.mainNav ul{
+				width: 90%;
+				margin:auto;
+				border: 2px #ccc solid;
+				padding: 10px;
+				border-radius: 15px;
+				text-align: center;
+				list-style: square;
+				list-style-type: none;
+				}
+
+				.mainNav li{
+		    	display: inline;
+		    	margin: 10px;
+				}
+				
+				.mainNav a{
+				font-size: 20px;
+				text-decoration: none;
+				color:inherit;
+				text-align: center;
+				}
+					.mainNav a:hover {
+					font-size: 21px;
+				}
+					.mainNav .active{
+					font-weight: 700;
+					border-bottom:3px red solid;
+				}
+					.mainNav a:visited {
+					color:inherit;
+					font-size: 20px;
+				}
+					.mainNav a:active {
+					color: #f4f4f4;
+				}
+
+
+	.Intro{
+	margin-top:172px;
+	height:100px;
+	padding:50px;
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	border-radius: 30px;
+
+	}
+		.Intro h3{
+		text-align: center;
+		padding-bottom: 5px;
+		}
+		.Intro p{
+		color:grey;
+		}
+
+	section{
+	width:100%;
+	margin:auto;
+	}
+		.box-1{
+		width:40%;
+		border: 3px solid #ccc;
+		margin:20px;
+		padding:20px;
+		overflow: hidden;
+		}
+			.box-1 h2{
+			margin:20px 0;
+			border-left:3px red solid;
+			}
+			.box-1 iframe{
+			border:3px black solid;
+			}
+
+		#Concepts{
+		float:right;
+		width:200px;
+		margin:20px;
+		border: 2px #ccc solid;
+		padding: 10px;
+		border-radius: 15px;
+		}
+			#Concepts ul{
+			list-style:square;
+			list-style-type: none;}
+
+
+	article{
+	width:90%;
+	margin:auto;
+	padding:20px;
+	}
+		#podStrip{
+		height:180px;
+		width:100%;
+		margin:auto;
+		}
+			.Pod{
+			width: 19%;
+			height:150px;
+			margin:3px;
+			border: 2px #ccc solid;
+			border-radius: 15px;
+			box-sizing: border-box;
+			overflow-y:auto;
+			overflow-x:hidden;
+			float:right;
+			}
+				.Pod .podTitle{
+				width:100%;
+				height:20px;
+				padding:10px;
+				background-color: #ccc;
+				color:white;
+				letter-spacing: 0.1em;
+				font-size:20px;
+				position: fixed;
+				}
+				.Pod .podText{
+				padding: 10px;
+				}
+
+
+
+	footer{
+	background-color: black;
+	height:70px;
+		}
+			footer img{
+			width:70px;
+			padding:10px;
+			margin:auto;
+			float:left;
+			}
+			footer .endNote{
+			padding:23px 0px;
+			color:white;
+			}
+
+
